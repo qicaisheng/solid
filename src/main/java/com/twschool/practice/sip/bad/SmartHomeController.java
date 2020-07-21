@@ -5,7 +5,7 @@ public class SmartHomeController {
         smartDevice.turnOn();
     }
 
-    public void play(SmartDevice smartDevice) {
-        smartDevice.play();
+    public void play(SmartMediaDevice smartMediaDevice) {
+        smartMediaDevice.play();
     }
 }
