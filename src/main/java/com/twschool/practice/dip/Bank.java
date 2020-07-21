@@ -4,9 +4,9 @@ import java.util.List;
 
 public class Bank {
     private List<Account> accounts;
-    private final SMSNotification notification;
+    private final BankNotification notification;
 
-    public Bank(List<Account> accounts, SMSNotification notification) {
+    public Bank(List<Account> accounts, BankNotification notification) {
 
         this.accounts = accounts;
         this.notification = notification;
