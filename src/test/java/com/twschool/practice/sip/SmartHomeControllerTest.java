@@ -14,4 +14,14 @@ public class SmartHomeControllerTest {
         
         Mockito.verify(smartSocket, Mockito.times(1)).turnOn();
     }
+
+    @Test
+    public void should_be_turn_on_smart_device_given_smart_home_controller_and_smart_lamp_device() {
+        SmartHomeController smartHomeController = new SmartHomeController();
+
+        SmartLamp smartLamp = Mockito.mock(SmartLamp.class);
+        smartHomeController.turnOn(smartLamp);
+
+        Mockito.verify(smartLamp, Mockito.times(1)).turnOn();
+    }
 }
