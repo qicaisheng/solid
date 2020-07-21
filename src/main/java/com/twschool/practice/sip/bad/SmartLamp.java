@@ -1,6 +1,6 @@
-package com.twschool.practice.sip;
+package com.twschool.practice.sip.bad;
 
-public class SmartSoundBox implements SmartDevice {
+public class SmartLamp implements SmartDevice {
     @Override
     public void turnOn() {
         

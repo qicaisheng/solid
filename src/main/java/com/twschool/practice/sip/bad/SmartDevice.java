@@ -1,4 +1,4 @@
-package com.twschool.practice.sip;
+package com.twschool.practice.sip.bad;
 
 public interface SmartDevice {
     void turnOn();

@@ -1,4 +1,4 @@
-package com.twschool.practice.sip;
+package com.twschool.practice.sip.bad;
 
 import org.junit.Test;
 import org.mockito.Mockito;
