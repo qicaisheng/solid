@@ -5,4 +5,9 @@ public class SmartSoundBox implements SmartDevice {
     public void turnOn() {
         
     }
+
+    @Override
+    public void play() {
+        
+    }
 }

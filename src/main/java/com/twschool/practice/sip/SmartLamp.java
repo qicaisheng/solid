@@ -5,4 +5,9 @@ public class SmartLamp implements SmartDevice {
     public void turnOn() {
         
     }
+
+    @Override
+    public void play() {
+        
+    }
 }

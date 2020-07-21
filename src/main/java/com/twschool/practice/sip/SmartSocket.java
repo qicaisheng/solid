@@ -6,4 +6,9 @@ public class SmartSocket implements SmartDevice {
     public void turnOn() {
         
     }
+
+    @Override
+    public void play() {
+        
+    }
 }
