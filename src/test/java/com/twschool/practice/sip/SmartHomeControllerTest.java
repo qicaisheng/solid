@@ -6,7 +6,7 @@ import org.mockito.Mockito;
 public class SmartHomeControllerTest {
 
     @Test
-    public void should_be_turn_on_smart_device_given_smart_home_controller_and_smart_device() {
+    public void should_be_turn_on_smart_device_given_smart_home_controller_and_smart_socket_device() {
         SmartHomeController smartHomeController = new SmartHomeController();
 
         SmartSocket smartSocket = Mockito.mock(SmartSocket.class);
