@@ -1,6 +1,8 @@
 package com.twschool.practice.sip;
 
-public class SmartSocket {
+public class SmartSocket implements SmartDevice {
+    
+    @Override
     public void turnOn() {
         
     }
